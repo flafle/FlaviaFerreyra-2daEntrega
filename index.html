@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Boots!-->
+<link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+<link rel="stylesheet" href="./css/styles.css">
+
+    <title>Inicio-Mongo</title>
+</head>
+<body>
+    <header>
+        FlaFe
+        <nav class="navbar navbar-expand-lg navbar-light btn-info">
+        
+          <div class="container-fluid">
+           <button   class="navbar-toggler"  type="button" data-mdb-toggle="collapse" 
+              aria-controls="navbarRightAlignExample"       aria-expanded="false"    aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+         
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+              
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">🐸</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio-Mongo</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">Jugar-Mongo</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Personajes</a>
+                  <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">🐒</a>
+                   </li>
+                  </li>
+                </li>
+              </ul>
+             </div>
+          </div>    
+        </nav>
+    </header>
+
+    <main>
+        <h1 >Bienvenid@ al mundo Mongo</h1>
+        <h3>Usá el registro de usuario para iniciar y comproba tu score!.</h3>
+        
+        <div class="alert alert-dismissible alert-success">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <br>
+          <strong>Bien, empezamos?</strong> Solo recuerda...<a href="#" class="alert-link">Tus puntajes deben ser números del 1 al 100</a>.
+        </div>
+
+        <!--FORMULARIO-->
+          <div class="form-group" id="formulario">
+            <label class="form-label mt-4">🐾</label>
+            <div class="form-floating mb-3">
+            <form class="form-horizontal" style="margin:0 auto">
+          <div class="form-group"> 
+
+            <!--Nombre-->
+            <label class="col-lg-8 control-label" id="nombre">Nombre</label>
+            <div class="col-lg-4">
+              <input type="text" class="form-control" name="nombre" />
+            </div>
+          </div>
+
+        <!--Email-->
+          <div class="form-group">
+            <label class="col-lg-8 control-label" id="email">Email</label>
+            <div class="col-lg-4">
+              <input type="email" class="form-control" name="email "/>
+            </div>
+          </div>
+
+        <!--Puntaje 1-->
+          <div class="form-group">
+            <label class="col-lg-8 control-label" id="pts1">Puntaje 1</label>
+            <div class="col-lg-4">
+              <input type="number" class="form-control" name="puntaje1" />
+            </div>
+          </div>
+
+        <!--Puntaje 2-->
+          <div class="form-group">
+            <label class="col-lg-8 control-label" id="pts2">Puntaje 2</label>
+            <div class="col-lg-4">
+              <input type="number" class="form-control" name="puntaje2" />
+            </div>
+          </div>
+
+         <!--total-->
+          <div class="form-group">
+            <div class="total" id="mostrarTotal">
+              <button type="submit" class="btn btn-success left" id="total">Total Puntos:</button>
+            </div>
+          </div>
+          <br>
+          <button type="button" class="btn btn-outline-info" id="info">Info</button>
+        </form>
+        
+    </main>
+
+
+    <!--FOOTER-->
+   <footer class="text-center text-lg-start bg-light text-muted">
+  <!-- redes -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    
+  </section>
+  
+
+  <!-- Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      
+      <div class="row mt-3">
+      
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+     
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+       
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+ 
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  
+   </footer>
+ <script src="./scritp.js/inicio.js"></script>
+</body>
+</html>
